@@ -139,3 +139,36 @@ p {
 .nav-toggle.expanded .nav-toggle-bar {
   background: transparent;
 }
+
+/* bottom nav */
+
+#bottom-nav {
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+}
+
+#bottom-nav ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+#bottom-nav li {
+  margin-right: 10px;
+}
+
+.number-menu img {
+  display: none;
+}
+
+.image-mode img {
+  display: inline-flex !important;
+  width: 500px;
+  position: absolute;
+  z-index: -1;
+  bottom: 100px;
+  right: 200px;
+}

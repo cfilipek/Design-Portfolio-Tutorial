@@ -17,3 +17,13 @@
     hamburger.doToggle(e);
   });
 })();
+
+const navItems = document.getElementsByClassName('number-menu');
+
+function onHover(index) {
+  navItems[index].classList.add('image-mode');
+}
+
+function mOut(index) {
+  navItems[index].classList.remove('image-mode');
+}
